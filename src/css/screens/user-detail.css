@@ -1,0 +1,56 @@
+#userdetail-fontcolor {
+    color: white;
+}
+
+.userdetail-div {
+    background-color: #8797a3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userdetail-header {
+    padding: var(--horizontal-space);
+    text-align: end;
+}
+
+.userdetail-main {
+    padding: var(--horizontal-space);
+}
+
+.userdetail-main__userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.userdetail-main__userinfo-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.userdetail-main__title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.userdetail-main__userinfo:last-child {
+    margin-top: 40px;
+    border-top: 1px solid white;
+}
+
+.userdetail-main__userinfo-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userdetail-main__userinfo-chat>i {
+    margin: 10px 0px;
+}

@@ -1,0 +1,78 @@
+.selcetedbgcolor p {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 10px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.changebackground {
+  margin: 10px;
+  background-color: white;
+  padding: 10px 0px;
+  border-radius: 30px;
+}
+
+.changebackground__div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.changebackground__div:first-child {
+  margin-bottom: 20px;
+}
+
+.changebackground__div div {
+  cursor: pointer;
+  width: 130px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.bgcolor1 {
+  background-color: #F5B7B1;
+}
+
+.bgcolor2 {
+  background-color: #D2B4DE;
+}
+
+.bgcolor3 {
+  background-color: #AED6F1;
+}
+
+.bgcolor4 {
+  background-color: #A2D9CE;
+}
+
+.bgcolor5 {
+  background-color: #ABEBC6;
+}
+
+.bgcolor6 {
+  background-color: #FAD7A0;
+}
+
+.bgcolor7 {
+  background-color: #EDBB99;
+}
+
+.bgcolor8 {
+  background-color: #E5E7E9;
+}
+
+.bgcolor9 {
+  background-color: #CCD1D1;
+}
+
+.bgcolor10 {
+  background-color: #ABB2B9;
+}
+
+.white {
+  background-color: #abc1d1;
+}

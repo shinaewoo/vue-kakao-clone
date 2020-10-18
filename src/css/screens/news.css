@@ -1,0 +1,22 @@
+ .news-list__li {
+     display: flex;
+     align-items: center;
+     border-bottom: 1px solid #eee;
+     margin: 5px 0px;
+ }
+
+ .news-list__title {
+     margin: 0;
+ }
+
+ .news-list__title span:hover {
+     cursor: pointer;
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+ .news-list__link {
+     color: #828282;
+     font-size: 13px;
+     margin: 0px 5px;
+ }

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.selcetedfont p {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 10px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.changefontfamily {
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+
+.changefontfamily__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.changefontfamily__div div {
+  cursor: pointer;
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+  margin: 3px 0px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.fontfamily1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.fontfamily2 {
+  font-family: 'Architects Daughter', cursive;
+}
+
+.fontfamily3 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.fontfamily4 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.fontfamily5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fontfamily6 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.fontfamily7 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.fontfamily8 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.fontfamily9 {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.fontfamily10 {
+  font-family: 'Fredoka One', cursive;
+}

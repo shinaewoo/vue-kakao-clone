@@ -1,0 +1,26 @@
+.alt-header {
+    margin-top: 10px;
+    padding: var(--horizontal-space);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.alt-header__chatBgColor {
+    background-color: #abc1d1;
+}
+
+.alt-header__column {
+    width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.alt-header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
